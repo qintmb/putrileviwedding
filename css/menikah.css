@@ -16,6 +16,49 @@ html {
   min-height: 100%;
 }
 
+/* 💌 Welcome Popup */
+    .popup {
+      position: fixed;
+     inset: 0;
+      width: 100vw; height: 100dvh;
+      background: rgba(0, 0, 0, 0.6);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      z-index: 999;
+      overflow: hidden;
+    }
+
+    .popup-box {
+      background: white;
+      padding: 2rem;
+      max-width: 90%;
+      border-radius: 15px;
+      text-align: center;
+      animation: fadeIn 0.6s ease forwards;
+    }
+
+    .popup-box h3 {
+      font-family: 'Great Vibes', cursive;
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+
+    .popup-box p {
+      margin-bottom: 1.5rem;
+    }
+
+    .popup-box button {
+      padding: 0.7rem 1.5rem;
+      border: none;
+      background-color: #aa4b6b;
+      color: white;
+      font-weight: bold;
+      font-size: 1rem;
+      border-radius: 30px;
+      cursor: pointer;
+    }
+
 .header-wrapper {
   padding-bottom: 30px;
 }
