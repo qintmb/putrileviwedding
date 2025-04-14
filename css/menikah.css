@@ -39,6 +39,33 @@ html {
   font-color: #996E6D;
 }
 
+.hero-parallax {
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.parallax-background {
+  background-image: url('https://elbrzx.github.io/putrileviwedding/image/381-1920x1080.jpg');
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  z-index: 1;
+  transform: scale(1.1);
+}
+
+.parallax-content {
+  position: relative;
+  z-index: 2;
+  color: white;
+  font-family: 'Raleway', sans-serif;
+}
+
+
 .hero {
   background-color: rgba(153, 110, 109, 0.65); /* fallback kalau gambar tidak muncul */
   background-image: 
