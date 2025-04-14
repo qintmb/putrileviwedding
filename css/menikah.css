@@ -565,7 +565,7 @@ body.preloader-site {
 
 
 .foto1 {
-  background-image: linear-gradient(rgba(95, 2, 2, 0.5), rgba(48, 47, 47, 0.9)), url("../image/putlevimg01.jpg");
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0,0,0,0) 50%), url("../image/putlevimg01.jpg");
   background-size: cover;
   background-position: center;
   background-repeat:no-repeat;
@@ -574,7 +574,7 @@ body.preloader-site {
 
 
 .foto2 {
-  background-image: linear-gradient(rgba(95, 2, 2, 0.5), rgba(48, 47, 47, 0.9)), url("../image/putlevimg02.jpg");
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0,0,0,0) 50%), url("../image/putlevimg02.jpg");
   background-size: cover;
   background-position: center;
   background-repeat:no-repeat;
