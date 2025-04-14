@@ -18,6 +18,9 @@ html {
 .header-wrapper {
   padding-bottom: 30px;
 }
+.hero {
+  background: ...;
+}
 
 .navbar-item {
   line-height: 38px;
