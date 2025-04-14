@@ -18,23 +18,25 @@ html {
 
 /* 💌 Welcome Popup */
     .popup {
-      position: fixed;
-     inset: 0;
-      width: 100vw; height: 100dvh;
-      background-color: rgba(153, 110, 109, 0.65); /* fallback kalau gambar tidak muncul */
+  position: fixed;
+  inset: 0;
+  width: 100vw;
+  height: 100dvh;
+  background-color: rgba(153, 110, 109, 0.3); /* fallback */
   background-image: 
-    linear-gradient(rgba(153, 110, 109, 0.65), rgba(153, 110, 109, 0.65)),
-    linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)),
+    linear-gradient(rgba(153, 110, 109, 0.2), rgba(153, 110, 109, 0.2)),
     url("https://elbrzx.github.io/putrileviwedding/image/381-1920x1080.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      z-index: 999;
-      overflow: hidden;
-    }
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 999;
+  overflow: hidden;
+  transition: opacity 0.5s ease-in-out;
+}
+
 
     .popup-box {
       background: white;
