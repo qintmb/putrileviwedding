@@ -570,6 +570,7 @@ body.preloader-site {
   background-position: center;
   background-repeat:no-repeat;
   min-height: 24rem;
+  filter: brightness(1.1);
 }
 
 
@@ -579,6 +580,7 @@ body.preloader-site {
   background-position: center;
   background-repeat:no-repeat;
   min-height: 24rem;
+  filter: brightness(1.1);
 }
 
 .foto3 {
