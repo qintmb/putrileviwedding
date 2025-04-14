@@ -66,7 +66,8 @@
     <!-- Begin Header -->
     <div class="header-wrapper" id="home">
       <!-- Begin Hero -->
-    <section class="hero is-large">
+    <section class="hero-parallax">
+      <div class="parallax-background"></div>
         <!-- Begin Mobile Nav -->
         <nav class="navbar is-transparent is-hidden-desktop">
           <!-- Begin Burger Menu -->
@@ -106,7 +107,7 @@
         <!-- End Mobile Nav -->
         <!-- Begin Hero Content-->
         <div class="hero-body">
-          <div class="container has-text-centered">
+          <div class="parallax-content has-text-centered">
             <h1 class="subtitle">Wedding Invitation</h1>
             <h2 class="title">Putri & Levi</h2>
             <h4 class="subtitle tempatwaktu">
@@ -458,6 +459,14 @@
 
   scrollToTopBtn.addEventListener("click", function() {
     window.scrollTo({ top: 0, behavior: 'smooth' });
+  });
+</script>
+
+    <script>
+  window.addEventListener('scroll', () => {
+    const bg = document.querySelector('.parallax-background');
+    const scrollY = window.scrollY;
+    bg.style.transform = `translateY(${scrollY * 0.3}px) scale(1.1)`;
   });
 </script>
   </body>
