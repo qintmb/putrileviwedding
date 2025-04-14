@@ -20,7 +20,6 @@ html {
 }
 
 .hero {
-  background-image: url("../image/381-1920x1080.jpg");
   background: linear-gradient(rgba(153, 110, 109, 0.65), rgba(153, 110, 109, 0.65)), rgba(0, 0, 0, 0.55) url("../image/381-1920x1080.jpg") no-repeat;
   background-attachment: fixed;
   background-size: cover;
