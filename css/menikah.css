@@ -59,6 +59,11 @@ html {
       cursor: pointer;
     }
 
+body.noscroll {
+  overflow: hidden;
+  height: 100vh;
+}
+
 .header-wrapper {
   padding-bottom: 30px;
 }
