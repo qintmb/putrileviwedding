@@ -16,8 +16,19 @@
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
     <script src="js/jquery.coundown.js"></script>
     <link rel="icon" type="image/png" href="image/favicon.png" />
+    <style>
+      body.noscroll {
+        overflow: hidden;
+      }
+    </style>
   </head>
-
+<!-- Welcome Popup -->
+<div id="popup" style="position:fixed;top:0;left:0;width:100%;height:100%;background:white;z-index:9999;display:flex;align-items:center;justify-content:center;flex-direction:column;text-align:center;">
+  <h2>Selamat Datang di Undangan</h2>
+  <p>Putri & Levi</p>
+  <button onclick="closePopup()" class="button is-primary" style="margin-top:20px;">Buka Undangan</button>
+</div>
+  
   <body>
     <!-- Begin Preloader -->
     <div class="preloader-wrapper">
@@ -397,16 +408,20 @@
     
     <!-- Scripts -->
     <script>
-    function closePopup() {
-      document.getElementById("popup").style.display = "none";
-      document.getElementById("main-content").style.display = "block";
-      document.body.classList.remove('noscroll'); // ✅ allow scroll
+  // Set body to noscroll saat popup tampil
+  document.body.classList.add('noscroll');
 
-      const audio = document.getElementById("bg-music");
-      audio.muted = false;
-      audio.play().catch(() => {});
-    }
-    </script>
+  function closePopup() {
+    document.getElementById("popup").style.display = "none";
+    document.body.classList.remove('noscroll');
+
+    const audio = document.getElementById("bg-music");
+    audio.muted = false;
+    audio.play().catch((e) => {
+      console.log("Autoplay failed:", e);
+    });
+  }
+</script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="js/menikah.js"></script>
     <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
