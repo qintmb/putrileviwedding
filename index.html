@@ -412,8 +412,25 @@
       </div>
     </div>
     <!-- End Footer -->
-
+    
+ <!-- 🎵 Music -->
+  <audio id="bg-music" autoplay muted loop preload="auto">
+    <source src="assets/romantic-song.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+    
     <!-- Scripts -->
+    <script>
+    function closePopup() {
+      document.getElementById("popup").style.display = "none";
+      document.getElementById("main-content").style.display = "block";
+      document.body.classList.remove('noscroll'); // ✅ allow scroll
+
+      const audio = document.getElementById("bg-music");
+      audio.muted = false;
+      audio.play().catch(() => {});
+    }
+    </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="js/menikah.js"></script>
     <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
