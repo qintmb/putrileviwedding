@@ -27,6 +27,10 @@ html {
   font-size: 1rem;
   box-shadow:  ;
 }
+.tanggal-angka sup {
+  font-size: 0.6em;
+  vertical-align: super;
+}
 
 .navbar-item.is-active{
   border-bottom: 2px solid #996E6D;
