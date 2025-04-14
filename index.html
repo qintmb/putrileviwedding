@@ -20,24 +20,32 @@
       body.noscroll {
         overflow: hidden;
       }
-      #scrollToTopBtn {
+   #scrollToTopBtn {
   position: fixed;
   bottom: 40px;
   right: 30px;
   z-index: 1000;
   background: none;
-  color: #00bfff; /* biru muda */
+  color: #00bfff;
   border: none;
   font-size: 40px;
   cursor: pointer;
   display: none;
   transition: opacity 0.3s ease;
+  animation: floatUpDown 1.5s ease-in-out infinite;
 }
 
+/* Efek hover */
 #scrollToTopBtn:hover {
-  color: #1e90ff; /* biru terang saat hover */
+  color: #1e90ff;
 }
 
+/* Keyframes animasi naik-turun */
+@keyframes floatUpDown {
+  0%   { transform: translateY(0); }
+  50%  { transform: translateY(-8px); }
+  100% { transform: translateY(0); }
+}
     </style>
   </head>
   
