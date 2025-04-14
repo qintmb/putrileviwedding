@@ -464,5 +464,19 @@
     window.scrollTo({ top: 0, behavior: 'smooth' });
   });
 </script>
+    <script>
+  // Lock scroll saat popup tampil
+  document.body.classList.add('noscroll');
+
+  function closePopup() {
+    document.getElementById("popup").style.display = "none";
+    document.body.classList.remove('noscroll');
+
+    const audio = document.getElementById("bg-music");
+    audio.muted = false;
+    audio.play().catch(e => console.log("Autoplay failed:", e));
+  }
+</script>
+
   </body>
 </html>
