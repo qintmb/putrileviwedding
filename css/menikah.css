@@ -121,7 +121,7 @@ body.noscroll {
   font-family: 'Rouge Script', sans-serif;
   font-weight: 700;
   transform: rotate(-2deg);
-  font-size: 5rem;
+  font-size: 4rem;
   padding-bottom: 5px;
   color: whitesmoke;
 }
@@ -129,12 +129,12 @@ body.noscroll {
 .hero .subtitle {
   padding: 35px;
   color: whitesmoke;
-  font-size: 1.3rem;
+  font-size: 1.2rem;
 }
 
 .hero .tempatwaktu {
   padding-top: 35px;
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   
 }
 
@@ -369,7 +369,7 @@ body.noscroll {
   font-family: 'Rouge Script', sans-serif;
   font-weight: 700;
   color: #996E6D;
-  font-size: 3.5rem;
+  font-size: 3.1rem;
   letter-spacing: 0px;
   padding-bottom: 6px;
   line-height: 3.7rem;
@@ -385,7 +385,7 @@ vertical-align: middle;
 }
 
 .bodytext {
-  font-size: 18px;
+  font-size: 16px;
 }
 
 .waktu {
