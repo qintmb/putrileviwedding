@@ -1,5 +1,5 @@
 
-@import url("https://fonts.googleapis.com/css?family=Lato|Raleway|Permanent+Marker|Rouge+Script|Great+Vibes");
+@import url("https://fonts.googleapis.com/css?family=Lato|Oldenburg|Permanent+Marker|Rouge+Script|Great+Vibes");
 .has-vertically-aligned-content {
   display: flex;
   flex-direction: column;
@@ -11,7 +11,7 @@
 }
 
 html {
-  font-family: 'Raleway', Tahoma, sans-serif;
+  font-family: 'Oldenburg', sans-serif;
   width: 100%;
   min-height: 100%;
 }
@@ -114,7 +114,7 @@ body.noscroll {
   /* background-attachment: fixed;  ==> Hapus dulu ini untuk iPhone compatibility */
   color: white;
   box-shadow: inset 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Oldenburg', sans-serif;
 }
 
 .hero .title {
@@ -195,7 +195,7 @@ body.noscroll {
 .main-content {
   padding-top: 2rem;
   color: #000; 
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Oldenburg', sans-serif;
 }
 
 .main-content .section-dark {
@@ -330,7 +330,7 @@ body.noscroll {
   height: 50px;
   font-size: 1.1rem;
   text-transform: uppercase;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Oldenburg', sans-serif;
 }
 
 @media (max-width: 599px) {
@@ -356,7 +356,7 @@ body.noscroll {
 }
 
 .main-content .section-title {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Oldenburg', sans-serif;
   font-weight: 900;
   color: #996E6D;
   text-transform: uppercase;
@@ -390,19 +390,19 @@ vertical-align: middle;
 
 .waktu {
   font-size: 1.4rem;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Oldenburg', sans-serif;
 }
 
 .tanggal-angka {
   font-size: 5rem;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Oldenburg', sans-serif;
   font-weight: 900;
   line-height: 1;
 }
 
 .tempat {
   font-size: 1.4rem;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Oldenburg', sans-serif;
   font-size: ;
   margin-bottom: 50px;
 }
