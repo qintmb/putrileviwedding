@@ -35,7 +35,7 @@ class Flower {
   }
 }
 
-for (let i = 0; i < 30; i++) {
+for (let i = 0; i < 10; i++) {
   flowers.push(new Flower());
 }
 
