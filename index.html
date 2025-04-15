@@ -30,18 +30,20 @@
   border: none;
   cursor: pointer;
   display: none;
-  transition: opacity 0.3s ease;
+  padding: 0;
   animation: floatUpDown 1.5s ease-in-out infinite;
 }
-      
+
+/* Ukuran gambar tetap proporsional */
 #scrollToTopBtn img {
-  width: 40px;   /* Ubah sesuai kebutuhan */
-  height: auto;  /* Biar proporsional */
-  transition: transform 0.3s ease;
-  
-/* Efek hover */
-#scrollToTopBtn:hover img{
-  transform: scale(1.1);
+  height: 40px;
+  width: auto;
+  transition: filter 0.3s ease;
+}
+
+/* Hover efek tanpa bentrok transform */
+#scrollToTopBtn:hover img {
+  filter: brightness(1.2);
 }
 
 /* Keyframes animasi naik-turun */
@@ -438,7 +440,7 @@
         duration: 800,
       });
     </script>
-    <button id="scrollToTopBtn" title="Kembali ke atas"><img src="image/ScrollButton.png" alt="Scroll to Top" style="width: 37px; height: 91px;"></button>
+    <button id="scrollToTopBtn" title="Kembali ke atas"><img src="image/ScrollButton.png" alt="Scroll to Top" style="width: 30px; height: 30px;"></button>
     <script>
   const scrollToTopBtn = document.getElementById("scrollToTopBtn");
 
