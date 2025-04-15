@@ -464,7 +464,32 @@
     audio.play().catch(e => console.log("Autoplay failed:", e));
   }
 </script>
+    
 <!-- Script bunga -->
   <script src="../js/flowerfall.js"></script>
+    
+<!-- Script Navbar Mobile Auto Close -->
+    <script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const burger = document.querySelector('.navbar-burger');
+    const menu = document.querySelector('#mobile-nav');
+    const navLinks = document.querySelectorAll('#mobile-nav .navbar-item a');
+
+    // Toggle menu on burger click
+    burger.addEventListener('click', () => {
+      burger.classList.toggle('is-active');
+      menu.classList.toggle('is-active');
+    });
+
+    // Auto-close menu on link click
+    navLinks.forEach(link => {
+      link.addEventListener('click', () => {
+        burger.classList.remove('is-active');
+        menu.classList.remove('is-active');
+      });
+    });
+  });
+</script>
+
   </body>
 </html>
