@@ -5,7 +5,7 @@ canvas.height = window.innerHeight;
 
 let flowers = [];
 const flowerImage = new Image();
-flowerImage.src = 'https://cdn-icons-png.flaticon.com/512/3537/3537855.png';
+flowerImage.src = '../image/floral-leaf/floral-leaf-4.png';
 
 class Flower {
   constructor() {
