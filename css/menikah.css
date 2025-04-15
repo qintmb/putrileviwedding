@@ -1,5 +1,5 @@
 
-@import url("https://fonts.googleapis.com/css?family=Lato|Raleway|Permanent+Marker|Rouge+Script");
+@import url("https://fonts.googleapis.com/css?family=Lato|Raleway|Permanent+Marker|Rouge+Script|Great+Vibes");
 .has-vertically-aligned-content {
   display: flex;
   flex-direction: column;
@@ -362,6 +362,7 @@ body.noscroll {
 
 .nama-lengkap {
   font-family: 'Rouge Script', sans-serif;
+  font-weight: 700;
   color: #996E6D;
   font-size: 3.5rem;
   letter-spacing: 0px;
