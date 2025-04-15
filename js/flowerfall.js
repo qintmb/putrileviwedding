@@ -1,4 +1,3 @@
-<script>
 const canvas = document.getElementById('flower-canvas');
 const ctx = canvas.getContext('2d');
 canvas.width = window.innerWidth;
@@ -6,7 +5,7 @@ canvas.height = window.innerHeight;
 
 let flowers = [];
 const flowerImage = new Image();
-flowerImage.src = 'https://cdn-icons-png.flaticon.com/512/3537/3537855.png'; // Gambar bunga (png transparan)
+flowerImage.src = 'https://cdn-icons-png.flaticon.com/512/3537/3537855.png';
 
 class Flower {
   constructor() {
@@ -55,4 +54,3 @@ window.addEventListener('resize', () => {
   canvas.width = window.innerWidth;
   canvas.height = window.innerHeight;
 });
-</script>
