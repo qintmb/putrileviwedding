@@ -636,7 +636,6 @@ body.preloader-site {
   filter: brightness(1.1);
 }
 
-
 .foto2 {
   background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 30%, rgba(0,0,0,0) 20%), url("../image/putlevimg02.jpg");
   background-size: cover;
@@ -673,7 +672,6 @@ body.preloader-site {
   filter: brightness(1.1);
 }
 
-
 .foto6 {
   background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 30%, rgba(0,0,0,0) 20%), url("../image/putlevimg06.jpg");
   background-size: cover;
@@ -683,7 +681,32 @@ body.preloader-site {
   filter: brightness(1.1);
 }
 
+.foto7 {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 30%, rgba(0,0,0,0) 20%), url("../image/putlevimg07.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat:no-repeat;
+  min-height: 24rem;
+  filter: brightness(1.1);
+}
 
+.foto8 {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 30%, rgba(0,0,0,0) 20%), url("../image/putlevimg08.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat:no-repeat;
+  min-height: 24rem;
+  filter: brightness(1.1);
+}
+
+.foto9 {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 30%, rgba(0,0,0,0) 20%), url("../image/putlevimg09.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat:no-repeat;
+  min-height: 24rem;
+  filter: brightness(1.1);
+}
 
 .title-foto {
   font-size: 18pt;
