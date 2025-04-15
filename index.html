@@ -21,15 +21,13 @@
       body.noscroll {
         overflow: hidden;
       }
-   #scrollToTopBtn {
+  #scrollToTopBtn {
   position: fixed;
-  bottom: 40px;
+  bottom: 30px;
   right: 30px;
   z-index: 1000;
-  background: none;
-  color: #00bfff;
+  background: transparent;
   border: none;
-  font-size: 40px;
   cursor: pointer;
   display: none;
   transition: opacity 0.3s ease;
@@ -37,8 +35,8 @@
 }
 
 /* Efek hover */
-#scrollToTopBtn:hover {
-  color: #1e90ff;
+#scrollToTopBtn:hover img{
+  transform: scale(1.1);
 }
 
 /* Keyframes animasi naik-turun */
@@ -435,7 +433,7 @@
         duration: 800,
       });
     </script>
-    <button id="scrollToTopBtn" title="Kembali ke atas">&#9650;</button>
+    <button id="scrollToTopBtn" title="Kembali ke atas">&#9650;<img src="image/ScrollButton.png" alt="Scroll to Top" style="width: 40px; height: 40px;"></button>
     <script>
   const scrollToTopBtn = document.getElementById("scrollToTopBtn");
 
