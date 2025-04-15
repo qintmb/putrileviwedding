@@ -49,6 +49,11 @@ html {
 
     .popup-box h3 {
       font-family: 'Great Vibes', cursive;
+      font-size: 1rem;
+      margin-bottom: 1rem;
+    }
+    .popup-box h2 {
+      font-family: 'Rogue Script', cursive;
       font-size: 2rem;
       margin-bottom: 1rem;
     }
