@@ -77,6 +77,17 @@ button i {
       cursor: pointer;
     }
 
+.popup-box button:hover {
+      padding: 0.7rem 1.8rem;
+      border: none;
+      background-color: ##bf7877;
+      color: white;
+      font-weight: bold;
+      font-size: 1rem;
+      border-radius: 30px;
+      cursor: pointer;
+    }
+
 body.noscroll {
   overflow: hidden;
   height: 100vh;
