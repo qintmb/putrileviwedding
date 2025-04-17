@@ -754,3 +754,9 @@ body.preloader-site {
   text-align: center;
   padding: 10px;
 }
+.qintomb {
+  margin: 50px 20px;
+  display: inline-block;
+  max-height: 20px;
+  vertical-align: middle;
+}
