@@ -37,6 +37,9 @@ html {
   transition: opacity 0.5s ease-in-out;
 }
 
+button i {
+  margin-right: 8px;
+}
 
     .popup-box {
       background: white;
